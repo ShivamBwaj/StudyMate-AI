@@ -13,6 +13,8 @@ dist-ssr
 *.local
 dist
 build
+backend/credentials.json
+backend/token.json
 
 # Editor directories and files
 .vscode/*
