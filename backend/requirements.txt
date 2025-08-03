@@ -8,3 +8,7 @@ pytesseract
 pillow
 opencv-python
 python-multipart
+fastapi
+uvicorn
+pydantic
+python-pptx
