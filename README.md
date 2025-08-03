@@ -4,8 +4,8 @@ An AI-powered personal study assistant that helps you plan your learning, summar
 
 ## 🖼️ Live Demo
 
-🌐 Frontend: [https://your-frontend-url.vercel.app](https://your-frontend-url.vercel.app)  
-🛠️ Backend API: [https://your-backend-url.onrender.com](https://your-backend-url.onrender.com)
+🌐 Frontend: [https://study-mate-ai-gules.vercel.app](https://study-mate-ai-gules.vercel.app)
+🛠️ Backend API: [https://studymate-ai-tkuz.onrender.com](https://studymate-ai-tkuz.onrender.com)
 
 ---
 
