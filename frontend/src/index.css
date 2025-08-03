@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.sparkle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events:none;
+  z-index: -1;
+  overflow:hidden;
+}
+
+.sparkle span {
+  position:absolute;
+  width:8px;
+  height:8px;
+  background:rgba(255,255,255,0.9); /* brighter */
+  border-radius:50%;
+  animation: move 8s linear infinite;
+  opacity: 0.8;
+  filter: drop-shadow(0 0 6px white);
+}
+
+
+@keyframes move {
+  0% {
+    transform:translateY(0) translateX(0);
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+  100% {
+    transform:translateY(-100vh) translateX(10vw);
+    opacity:0;
+  }
+}

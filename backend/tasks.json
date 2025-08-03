@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Study plan for OS and DBMS",
+    "due_date": "2025-08-08",
+    "completed": false,
+    "created_at": "2025-08-03T12:25:29.585420"
+  },
+  {
+    "id": 2,
+    "name": "Study plan for OS and DBMS",
+    "due_date": "2025-08-08",
+    "completed": false,
+    "created_at": "2025-08-03T12:27:57.295166"
+  },
+  {
+    "id": 3,
+    "name": "Study plan for physics",
+    "due_date": "2025-08-04",
+    "completed": false,
+    "created_at": "2025-08-03T12:28:45.902812"
+  },
+  {
+    "id": 4,
+    "name": "Study plan for physics",
+    "due_date": "2025-08-04",
+    "completed": false,
+    "created_at": "2025-08-03T12:44:39.886077"
+  },
+  {
+    "id": 5,
+    "name": "Study plan for physics",
+    "due_date": "2025-08-04",
+    "completed": false,
+    "created_at": "2025-08-03T12:52:50.437985"
+  }
+]

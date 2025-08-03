@@ -1,0 +1,10 @@
+python-dotenv
+PyPDF2
+openai
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+pytesseract
+pillow
+opencv-python
+python-multipart
