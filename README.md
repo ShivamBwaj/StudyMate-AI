@@ -49,3 +49,13 @@ uvicorn main:app --reload
 ### Create a .env in /backend:
 ```bash
 GROQ_API_KEY=your_api_key
+```
+### 🔐 Security Notes
+
+- All secrets (API keys, tokens) are excluded using .gitignore
+- If deploying, be sure to set your environment variables manually on Vercel & Render
+
+### Made with ❤️ by Shivam Bhardwaj
+
+-Instagram: @shivamisticz
+-Linkedin: [https://www.linkedin.com/in/shivam-bhardwaj-118548377/](https://www.linkedin.com/in/shivam-bhardwaj-118548377/)
