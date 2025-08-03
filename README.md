@@ -35,3 +35,17 @@ An AI-powered personal study assistant that helps you plan your learning, summar
 cd frontend
 npm install
 npm run dev
+```
+
+### 🔧 🧠 Backend (FastAPI)
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+### Create a .env in /backend:
+```bash
+GROQ_API_KEY=your_api_key
