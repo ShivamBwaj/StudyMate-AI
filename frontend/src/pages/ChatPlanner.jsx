@@ -41,7 +41,7 @@ function ChatPlanner() {
     setLoading(true);
 
     try {
-      const res = await axios.post("https://studymate-ai-tkuz.onrender.comchat", {
+      const res = await axios.post("https://studymate-ai-tkuz.onrender.com/chat", {
         message,
         history: chat.slice(-6).map((msg) => ({ role: msg.role, content: msg.content })),
       });
@@ -151,12 +151,12 @@ function ChatPlanner() {
             <label htmlFor="pdf-upload" className="cursor-pointer bg-purple-600 hover:bg-purple-700 p-2 rounded-lg text-white text-sm flex items-center gap-1">
               <FaFilePdf /> PDF
             </label>
-            <input type="file" accept=".pdf" id="pdf-upload" onChange={(e) => uploadFile(e, "https://studymate-ai-tkuz.onrender.comchat-pdf", "📎 Uploaded:")} className="hidden" />
+            <input type="file" accept=".pdf" id="pdf-upload" onChange={(e) => uploadFile(e, "https://studymate-ai-tkuz.onrender.com/chat-pdf", "📎 Uploaded:")} className="hidden" />
 
             <label htmlFor="image-upload" className="cursor-pointer bg-pink-600 hover:bg-pink-700 p-2 rounded-lg text-white text-sm flex items-center gap-1">
               <FaImage /> Image
             </label>
-            <input type="file" accept=".png,.jpg,.jpeg" id="image-upload" onChange={(e) => uploadFile(e, "https://studymate-ai-tkuz.onrender.comchat-ocr", "🖼️ Uploaded:")} className="hidden" />
+            <input type="file" accept=".png,.jpg,.jpeg" id="image-upload" onChange={(e) => uploadFile(e, "https://studymate-ai-tkuz.onrender.com/chat-ocr", "🖼️ Uploaded:")} className="hidden" />
           </div>
 
           <div className="flex-1 flex gap-2 mt-2 sm:mt-0">
