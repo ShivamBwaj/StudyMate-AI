@@ -1,6 +1,7 @@
 # StudyMate AI 🧠🚀
 
 An AI-powered personal study assistant that helps you plan your learning, summarize notes, ask doubts from your PDFs/images, and sync schedules with Google Calendar.
+This is my First Ever Deployed Project, i am still working on it adding new features to it ;
 
 ## 🖼️ Live Demo
 
