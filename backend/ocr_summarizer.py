@@ -36,7 +36,7 @@ def summarize_image_slide(image_path):
     print("🧠 Summarizing extracted text...")
 
     response = client.chat.completions.create(
-        model="llama3-8b-8192",
+        model="llama-3.1-8b-instant",
         messages=[
             {"role": "system", "content": "You are an AI assistant summarizing lecture content from an image."},
             {"role": "user", "content": text}
