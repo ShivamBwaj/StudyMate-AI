@@ -74,7 +74,7 @@ User: "{user_input}"
 """
         try:
             result_text = client.chat.completions.create(
-                model="llama3-8b-8192",
+                model="llama-3.1-8b-instant",
                 messages=[{"role": "user", "content": planner_prompt}],
             ).choices[0].message.content
 
